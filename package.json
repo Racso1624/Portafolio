@@ -6,6 +6,10 @@
   "author": "Racso1624 <fer10_lb@outlook.com>",
   "license": "MIT",
 
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
   "dependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/node": "^7.17.10",
