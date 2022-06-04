@@ -1,10 +1,11 @@
-import React from "react";
-
-import "../styles/skills.sass";
+import React from "react"
+import SkillCard from "./SkillCard"
+import "../styles/skills.sass"
 
 const Skills = () =>(
-    <div className="skills">
-        <h1>Hi My Name Is Oscar</h1>
+    <div className="skills" id="skills">
+        <h1>SKILLS</h1>
+
     </div>
 )
 

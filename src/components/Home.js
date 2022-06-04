@@ -1,10 +1,19 @@
-import React from "react";
-
-import "../styles/home.sass";
+import React from "react"
+import ProfilePicture from "../images/profile.png"
+import "../styles/home.sass"
 
 const Home = () =>(
-    <div className="home">
-        <h1>Hi My Name Is Oscar</h1>
+    <div className="home" id="home">
+        <div className="homecontent">
+            <img src={ProfilePicture} className="profile"/>
+            <div className="text">
+                <h1>Hi My Name Is Oscar!</h1>
+                <p>
+                    I am a Frontend and Backend Developer<br></br>
+                    I like to create functional apps and websites
+                </p>
+            </div>
+        </div>
     </div>
 )
 
