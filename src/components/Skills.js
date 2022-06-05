@@ -8,12 +8,12 @@ import React_Logo from "../images/skills/react.png"
 import Figma from "../images/skills/figma.png"
 import Lightroom from "../images/skills/lightroom.png"
 import Java from "../images/skills/java.png"
-import Unity from "../images/skills/unity.png"
+import Postgres from "../images/skills/postgres.png"
 import "../styles/skills.sass"
 
 const skills_list = [[Python, "Python"], [Kotlin, "Kotlin"], [Flutter, "Flutter"], 
 [Javascript, "Javascript"], [React_Logo, "React"], [Figma, "Figma"], 
-[Lightroom, "Lightroom"], [Java, "Java"], [Unity, "Unity"]]
+[Lightroom, "Lightroom"], [Java, "Java"], [Postgres, "PostgreSQL"]]
 
 const Skills = () =>(
     <div className="skills" id="skills">
