@@ -8,12 +8,14 @@ import "../styles/app.sass"
 
 const App = () =>(
 
-    <div className="app">
+    <div className="content">
         <TopBar/>
-        <Home/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
+        <div className="app">
+            <Home/>
+            <Skills/>
+            <Projects/>
+            <Contact/>
+        </div>
     </div>
 )
 
