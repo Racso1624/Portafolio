@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap')
+$font-stack:'Bebas Neue', cursive
+$font-color: #FFFFFF
+
+.projectcard
+    display: block
+    align-content: center
+    justify-content: center
+    border: 3px solid #1fc1c3
+    border-radius: 10px
+    font-family: $font-stack
+    color: $font-color
+    text-decoration: none
+
+.description
+    display: none
+
+.projectcard:hover
+    display: grid
+    justify-content: center
+    align-items: center
+    width: 300px
+    background-color: #1fc1c3
+    .projectcard-content
+        display: none
+    .description
+        display: flex
+        text-align: center
+        
+
+.projectimage
+    height: 175px
+    width: 300px

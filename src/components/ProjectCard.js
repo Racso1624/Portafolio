@@ -3,8 +3,13 @@ import "../styles/projectcard.sass"
 
 const ProjectCard = (props) =>(
     <a className="projectcard" href={props.link}>
-        <img src={props.logo} className="cardimage"/>
-        <div className="cardname">{props.name}</div>
+        <div className="projectcard-content">
+            <img src={props.logo} className="projectimage"/>
+            <div className="cardname">{props.name}</div>
+        </div>
+        <p className="description"> 
+            {props.description}
+        </p>
     </a>
 )
 
