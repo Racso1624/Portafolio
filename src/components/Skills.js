@@ -17,7 +17,7 @@ const skills_list = [[Python, "Python"], [Kotlin, "Kotlin"], [Flutter, "Flutter"
 
 const Skills = () =>(
     <div className="skills" id="skills">
-        <div className="content">
+        <div className="skills-content">
             <h1>My Skills</h1>
             <div className="skill-list">
                 {

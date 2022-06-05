@@ -4,7 +4,7 @@ import "../styles/home.sass"
 
 const Home = () =>(
     <div className="home" id="home">
-        <div className="homecontent">
+        <div className="home-content">
             <div className="profilepicture">
                 <img src={ProfilePicture} className="profile"/>
             </div>

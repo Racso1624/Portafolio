@@ -1,10 +1,14 @@
 import React from "react";
-
 import "../styles/projects.sass";
 
 const Projects = () =>(
     <div className="projects" id="projects">
-        <h1>Hi </h1>
+        <div className="projects-content">
+            <h1>My Projects</h1>
+        </div>
+        <div className="projects-list">
+            
+        </div>
     </div>
 )
 
