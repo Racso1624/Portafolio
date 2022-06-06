@@ -22,7 +22,7 @@ const Skills = () =>(
             <div className="skill-list">
                 {
                     skills_list.map((element, index) =>{
-                        return <SkillCard logo={element[0]} name={element[1]}/>
+                        return <SkillCard key={index} logo={element[0]} name={element[1]}/>
                     })
                 }
             </div>

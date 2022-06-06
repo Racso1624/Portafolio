@@ -11,7 +11,7 @@ const Home = () =>(
             <div className="text">
                 <h1>Hi My Name Is Oscar!</h1>
                 <p>
-                    I am a Frontend and Backend Developer<br></br>
+                    I am a Full Stack Developer<br></br>
                     I like to create functional apps and websites<br></br>
                     I am a Third Year Computer Science Student At Universidad Del Valle De Guatemala
                 </p>

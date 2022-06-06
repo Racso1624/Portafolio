@@ -1,7 +1,5 @@
-import React from "react";
-import GitHub from "../images/github.png"
-import Instagram from "../images/instagram.png"
-import "../styles/topbar.sass";
+import React from "react"
+import "../styles/topbar.sass"
 
 const TopBar = () =>(
     <div className="topbar">
@@ -11,9 +9,8 @@ const TopBar = () =>(
             <a className="link" href="#projects">PROJECTS</a>
             <a className="link" href="#contact">CONTACT ME</a>
         </div>
-        <div className="icons">
-            <img src={GitHub} className="icon"/>
-            <img src={Instagram} className="icon"/>
+        <div className="name">
+            <h1>Oscar López</h1>
         </div>
     </div>
 )
